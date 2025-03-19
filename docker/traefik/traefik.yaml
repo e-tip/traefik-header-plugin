@@ -3,10 +3,10 @@ entryPoints:
     address: :80
 
 experimental:
-  localPlugins:
+  plugins:
     bizawayHeaders:
-      moduleName: bizaway/headers
-
+      moduleName: bitbucket.org/bizaway/traefik-header-plugin
+      version: v0.1
 providers:
   file:
     directory: /etc/traefik/dynamic
