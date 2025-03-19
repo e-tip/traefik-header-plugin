@@ -1,0 +1,15 @@
+entryPoints:
+  web:
+    address: :80
+
+experimental:
+  localPlugins:
+    bizawayHeaders:
+      moduleName: bizaway/headers
+
+providers:
+  file:
+    directory: /etc/traefik/dynamic
+
+log:
+  level: DEBUG
